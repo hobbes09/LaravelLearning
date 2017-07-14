@@ -19,4 +19,6 @@ Route::get('/blog', 'BlogController@getAllBlog');
 
 Route::get('/blog/{id}', 'BlogController@getBlog');
 
+Route::post('/blog', 'BlogController@createBlog');
+
 
